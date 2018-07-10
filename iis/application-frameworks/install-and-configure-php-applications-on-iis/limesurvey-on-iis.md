@@ -28,7 +28,7 @@ The following steps assume that you have completed the setup and configuration o
 
 ## Download and Unpack LimeSurvey
 
-First, download the latest stable release of the LimeSurvey application. For this article, we use LimeSurvey 2.5x downloaded from [https://www.limesurvey.org/#download](http://sourceforge.net/project/showfiles.php?group_id=74605.ir)
+First, download the latest stable release of the LimeSurvey application. For this article, we use LimeSurvey 2.5x downloaded from [https://www.limesurvey.org/](https://www.limesurvey.org/)
 
 Once you download the package, uncompress it and copy all the files and folders to `C:\Inetpub\wwwroot\limesurvey`.
 
@@ -50,6 +50,8 @@ LimeSurvey requires two libraries named mbstring and php\_pdo\_mysql. To enable 
 ### Run the Installation Script
 
 Go to "[http://localhost/limesurvey/admin](http://localhost/limesurvey/admin/install/index.php)". Now the LimeSurvey installation script starts.
+
+If the above link hasn't worked, please also try "[http://localhost/limesurvey/index.php?r=admin](http://localhost/limesurvey/index.php?r=admin)".
 
 ![](limesurvey-on-iis/_static/image1.png)
 
